@@ -52,7 +52,7 @@ function submitForm(event) {}
         let transporter = nodemailer.createTransport({
           service: "Gmail",
           auth: {
-            user: "joysultan45@gmail.com", // Replace with your Gmail email address
+            user: "joysultan0@gmail.com", // Replace with your Gmail email address
             pass: "december31august" // Replace with your Gmail password or app password
           }
         });
