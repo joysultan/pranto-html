@@ -1,0 +1,33 @@
+a
+p
+button
+img
+h1-h6
+form
+table(optional)****
+i
+u
+br
+b
+span
+legend
+display-flex advance
+float-left
+menu
+drop-menu
+div
+
+
+
+
+
+  display: flex;
+  flex-wrap:wrap
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between,space-around,space-evanly
+    align-items:flex-end,flex-start,center
+    flex-direction:row,column,row-reverce,column-reverce
+
+
+ 

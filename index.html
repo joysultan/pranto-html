@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- kits for font-awsome -->
+    <script src="https://kit.fontawesome.com/91c49206b2.js" crossorigin="anonymous"></script>
+    <!-- kits for font-awsome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node.js">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Student Feedback Form</h2>
+        <form id="feedbackForm" onsubmit="submitForm(event)">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="support">How did the mentor support you?</label>
+            <textarea id="support" name="support" rows="4" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <label for="effectiveness">How effective was the course?</label>
+            <textarea id="effectiveness" name="effectiveness" rows="4" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <label for="behavior">How would you rate the mentor's behavior?</label>
+            <textarea id="behavior" name="behavior" rows="4" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <label for="understanding">How well did the mentor understand your project?</label>
+            <textarea id="understanding" name="understanding" rows="4" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <input type="submit" value="Submit Feedback">
+          </div>
+        </form>
+      </div>
+    <!-- form end -->
+</body>
+</html>
